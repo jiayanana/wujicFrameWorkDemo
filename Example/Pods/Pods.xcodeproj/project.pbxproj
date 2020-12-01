@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075C2CE2FE957A8C0E381F23860AAF4C /* wujicFrameWorkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBEAB499E79797CA66CC0FE034221E /* wujicFrameWorkDemo-dummy.m */; };
+		0C36398D775B81E01BF6FED0051785BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		33229B63ABF8529406B599B36CBFDBB8 /* wujicFrameWorkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ED5EBA96F493012D9509833A725550 /* wujicFrameWorkDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FB7D74A41A7D5FD0F9685DEE6D9BE9 /* Pods-wujicFrameWorkDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49ABC03450FA466FA4D197C97C16A094 /* Pods-wujicFrameWorkDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E1A58FBF1514F262D73747D0C7C9FB /* Pods-wujicFrameWorkDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D22D15712D8848511859FDC3D8631 /* Pods-wujicFrameWorkDemo_Tests-dummy.m */; };
+		7BDEF5C90BDEA426386CED1B4FD64FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AE1AEA0BCE2B8005CCB56FD7AA4B1B35 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B5EE5729C426932D5F21AE6F7A1D35 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F4F6F06D1E8247FBC8B6358FCF9B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C4538355D34339843A2C8F34E95FAD6;
+			remoteInfo = wujicFrameWorkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0505BADB25757D40E09BC6468A52F02F /* wujicFrameWorkDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wujicFrameWorkDemo-prefix.pch"; sourceTree = "<group>"; };
+		121CA94EC6F381B4B24021CEBD09D84D /* Pods-wujicFrameWorkDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wujicFrameWorkDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		188EED0FC54FA890261C4DA4CB162466 /* wujicFrameWorkDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wujicFrameWorkDemo-Info.plist"; sourceTree = "<group>"; };
+		1A6D22D15712D8848511859FDC3D8631 /* Pods-wujicFrameWorkDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wujicFrameWorkDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		1CF12D03032FC7D8F05987C4D0026F07 /* Pods-wujicFrameWorkDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wujicFrameWorkDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD771ABA4D10D132BEEEC8609104C7A /* Pods-wujicFrameWorkDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wujicFrameWorkDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33BA1ADB33F0A87788B3CB43809B521F /* Pods-wujicFrameWorkDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wujicFrameWorkDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		492B1CCE7E25F5E3C8DEA0F1247EA724 /* wujicFrameWorkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wujicFrameWorkDemo.modulemap; sourceTree = "<group>"; };
+		49ABC03450FA466FA4D197C97C16A094 /* Pods-wujicFrameWorkDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wujicFrameWorkDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5B00CDD94B9EBCBB084C879986CC3428 /* Pods-wujicFrameWorkDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wujicFrameWorkDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5F10623304F0BFF905819B4EF6C5D89E /* Pods-wujicFrameWorkDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wujicFrameWorkDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6748579D6D4679833C80F86370CE94F3 /* Pods-wujicFrameWorkDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wujicFrameWorkDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7377CD4B0EEDA93C4D9DC18CCA080C8C /* wujicFrameWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wujicFrameWorkDemo.debug.xcconfig; sourceTree = "<group>"; };
+		7FCBEAB499E79797CA66CC0FE034221E /* wujicFrameWorkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wujicFrameWorkDemo-dummy.m"; sourceTree = "<group>"; };
+		8662C0D78D16E73CBF8383B194DB39CE /* wujicFrameWorkDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wujicFrameWorkDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0ED5EBA96F493012D9509833A725550 /* wujicFrameWorkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wujicFrameWorkDemo-umbrella.h"; sourceTree = "<group>"; };
+		A53F3882AB90588B3756484682FD1138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB7147162074C6B95278803820135245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E0B5EE5729C426932D5F21AE6F7A1D35 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wujicFrameWorkDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E4828AAC94E1208D56D2822A737AC644 /* wujicFrameWorkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wujicFrameWorkDemo.framework; path = wujicFrameWorkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50F6C4FE9F20E2E1697F3CC58EDF51B /* wujicFrameWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wujicFrameWorkDemo.release.xcconfig; sourceTree = "<group>"; };
+		E66215562CBC0F2953529738D888C780 /* Pods_wujicFrameWorkDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wujicFrameWorkDemo_Tests.framework; path = "Pods-wujicFrameWorkDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED0693238AB5326BF17473719EEA313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEF5C90BDEA426386CED1B4FD64FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9395427F39BD8DCC22D026BB764C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C36398D775B81E01BF6FED0051785BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4670DAA621CBE918931226FA866549 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3B8E0C8F8FAD140421D9004549561 /* wujicFrameWorkDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B491E2BDE5BAC3E721627AF052A2F36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				492B1CCE7E25F5E3C8DEA0F1247EA724 /* wujicFrameWorkDemo.modulemap */,
+				7FCBEAB499E79797CA66CC0FE034221E /* wujicFrameWorkDemo-dummy.m */,
+				188EED0FC54FA890261C4DA4CB162466 /* wujicFrameWorkDemo-Info.plist */,
+				0505BADB25757D40E09BC6468A52F02F /* wujicFrameWorkDemo-prefix.pch */,
+				A0ED5EBA96F493012D9509833A725550 /* wujicFrameWorkDemo-umbrella.h */,
+				7377CD4B0EEDA93C4D9DC18CCA080C8C /* wujicFrameWorkDemo.debug.xcconfig */,
+				E50F6C4FE9F20E2E1697F3CC58EDF51B /* wujicFrameWorkDemo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/wujicFrameWorkDemo";
+			sourceTree = "<group>";
+		};
+		7DCE3EC8728DE0D79050487B338D44D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14C856EEEE0980518248C83D9D65D52 /* Pods-wujicFrameWorkDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8DCBB92A524F18986F724FC537BCD8AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E66215562CBC0F2953529738D888C780 /* Pods_wujicFrameWorkDemo_Tests.framework */,
+				E4828AAC94E1208D56D2822A737AC644 /* wujicFrameWorkDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14C856EEEE0980518248C83D9D65D52 /* Pods-wujicFrameWorkDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				121CA94EC6F381B4B24021CEBD09D84D /* Pods-wujicFrameWorkDemo_Tests.modulemap */,
+				5F10623304F0BFF905819B4EF6C5D89E /* Pods-wujicFrameWorkDemo_Tests-acknowledgements.markdown */,
+				1FD771ABA4D10D132BEEEC8609104C7A /* Pods-wujicFrameWorkDemo_Tests-acknowledgements.plist */,
+				1A6D22D15712D8848511859FDC3D8631 /* Pods-wujicFrameWorkDemo_Tests-dummy.m */,
+				5B00CDD94B9EBCBB084C879986CC3428 /* Pods-wujicFrameWorkDemo_Tests-frameworks.sh */,
+				6748579D6D4679833C80F86370CE94F3 /* Pods-wujicFrameWorkDemo_Tests-Info.plist */,
+				49ABC03450FA466FA4D197C97C16A094 /* Pods-wujicFrameWorkDemo_Tests-umbrella.h */,
+				1CF12D03032FC7D8F05987C4D0026F07 /* Pods-wujicFrameWorkDemo_Tests.debug.xcconfig */,
+				33BA1ADB33F0A87788B3CB43809B521F /* Pods-wujicFrameWorkDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-wujicFrameWorkDemo_Tests";
+			path = "Target Support Files/Pods-wujicFrameWorkDemo_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1E4670DAA621CBE918931226FA866549 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8DCBB92A524F18986F724FC537BCD8AE /* Products */,
+				7DCE3EC8728DE0D79050487B338D44D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC067B1A2D77077C2F0DC11AE9147E55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A53F3882AB90588B3756484682FD1138 /* LICENSE */,
+				AB7147162074C6B95278803820135245 /* README.md */,
+				8662C0D78D16E73CBF8383B194DB39CE /* wujicFrameWorkDemo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DFB3B8E0C8F8FAD140421D9004549561 /* wujicFrameWorkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5EE5729C426932D5F21AE6F7A1D35 /* ReplaceMe.m */,
+				DC067B1A2D77077C2F0DC11AE9147E55 /* Pod */,
+				6B491E2BDE5BAC3E721627AF052A2F36 /* Support Files */,
+			);
+			name = wujicFrameWorkDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		440192757F6B6237E46D78BCF194F36E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB7D74A41A7D5FD0F9685DEE6D9BE9 /* Pods-wujicFrameWorkDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A36037A1090991F9A35E60171489E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33229B63ABF8529406B599B36CBFDBB8 /* wujicFrameWorkDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B17A28C27AD67E2CB1292476AEB5FBB /* Pods-wujicFrameWorkDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88176F377CA577E65D53C0F6545AEAF3 /* Build configuration list for PBXNativeTarget "Pods-wujicFrameWorkDemo_Tests" */;
+			buildPhases = (
+				440192757F6B6237E46D78BCF194F36E /* Headers */,
+				32985C3997C72FA19F2FED5924DDAA91 /* Sources */,
+				0ED0693238AB5326BF17473719EEA313 /* Frameworks */,
+				FA4A3BAE206B12B89B7CBD5CBEFB0D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF184C6608084AB92F261BE3BD68D7B /* PBXTargetDependency */,
+			);
+			name = "Pods-wujicFrameWorkDemo_Tests";
+			productName = "Pods-wujicFrameWorkDemo_Tests";
+			productReference = E66215562CBC0F2953529738D888C780 /* Pods_wujicFrameWorkDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C4538355D34339843A2C8F34E95FAD6 /* wujicFrameWorkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50644F2265B8F3AEAA066498D6462B5 /* Build configuration list for PBXNativeTarget "wujicFrameWorkDemo" */;
+			buildPhases = (
+				E7A36037A1090991F9A35E60171489E4 /* Headers */,
+				5FB3D8271869D68746B3804CC73A1F5E /* Sources */,
+				FA9395427F39BD8DCC22D026BB764C1E /* Frameworks */,
+				3FBB3BDCAD9C389F38B1B0BA35588DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wujicFrameWorkDemo;
+			productName = wujicFrameWorkDemo;
+			productReference = E4828AAC94E1208D56D2822A737AC644 /* wujicFrameWorkDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8DCBB92A524F18986F724FC537BCD8AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B17A28C27AD67E2CB1292476AEB5FBB /* Pods-wujicFrameWorkDemo_Tests */,
+				7C4538355D34339843A2C8F34E95FAD6 /* wujicFrameWorkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBB3BDCAD9C389F38B1B0BA35588DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A3BAE206B12B89B7CBD5CBEFB0D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32985C3997C72FA19F2FED5924DDAA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E1A58FBF1514F262D73747D0C7C9FB /* Pods-wujicFrameWorkDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3D8271869D68746B3804CC73A1F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AEA0BCE2B8005CCB56FD7AA4B1B35 /* ReplaceMe.m in Sources */,
+				075C2CE2FE957A8C0E381F23860AAF4C /* wujicFrameWorkDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF184C6608084AB92F261BE3BD68D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wujicFrameWorkDemo;
+			target = 7C4538355D34339843A2C8F34E95FAD6 /* wujicFrameWorkDemo */;
+			targetProxy = 21F4F6F06D1E8247FBC8B6358FCF9B64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D790248612232C1CAFEBCD5988FD56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BA1ADB33F0A87788B3CB43809B521F /* Pods-wujicFrameWorkDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wujicFrameWorkDemo_Tests/Pods-wujicFrameWorkDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wujicFrameWorkDemo_Tests/Pods-wujicFrameWorkDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FDAD4244898AC7F00375608BA70EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50F6C4FE9F20E2E1697F3CC58EDF51B /* wujicFrameWorkDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo.modulemap";
+				PRODUCT_MODULE_NAME = wujicFrameWorkDemo;
+				PRODUCT_NAME = wujicFrameWorkDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65988FCDEC44097D57490850F7215235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF12D03032FC7D8F05987C4D0026F07 /* Pods-wujicFrameWorkDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wujicFrameWorkDemo_Tests/Pods-wujicFrameWorkDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wujicFrameWorkDemo_Tests/Pods-wujicFrameWorkDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A1D40B9FF59BCADE00504DED0280256A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7377CD4B0EEDA93C4D9DC18CCA080C8C /* wujicFrameWorkDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wujicFrameWorkDemo/wujicFrameWorkDemo.modulemap";
+				PRODUCT_MODULE_NAME = wujicFrameWorkDemo;
+				PRODUCT_NAME = wujicFrameWorkDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88176F377CA577E65D53C0F6545AEAF3 /* Build configuration list for PBXNativeTarget "Pods-wujicFrameWorkDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65988FCDEC44097D57490850F7215235 /* Debug */,
+				2D790248612232C1CAFEBCD5988FD56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50644F2265B8F3AEAA066498D6462B5 /* Build configuration list for PBXNativeTarget "wujicFrameWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D40B9FF59BCADE00504DED0280256A /* Debug */,
+				3FDAD4244898AC7F00375608BA70EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

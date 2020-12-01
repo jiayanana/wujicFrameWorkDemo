@@ -1,0 +1,6 @@
+framework module wujicFrameWorkDemo {
+  umbrella header "wujicFrameWorkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - wujicFrameWorkDemo (0.1.0)
+
+DEPENDENCIES:
+  - wujicFrameWorkDemo (from `../`)
+
+EXTERNAL SOURCES:
+  wujicFrameWorkDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wujicFrameWorkDemo: 74020d092368a1a965017a38df78225f2c07f511
+
+PODFILE CHECKSUM: 43bcafe9702c18151ada12ea03fe7a85da7fb13e
+
+COCOAPODS: 1.10.0
