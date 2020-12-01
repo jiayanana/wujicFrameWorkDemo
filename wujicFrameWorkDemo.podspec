@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
       一个用来实现多主题管理的 iOS 库，一个测试的库
                  DESC
 
-  s.homepage         = 'https://github.com/jiayanana/fantastic-telegram'
+  s.homepage         = 'https://github.com/jiayanana/wujicFrameWorkDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jiayanana' => '2396220501@qq.com' }
-  s.source           = { :git => 'https://github.com/jiayanana/fantastic-telegram.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jiayanana/wujicFrameWorkDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
