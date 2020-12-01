@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description  = <<-DESC
-      一个用来实现多主题管理的 iOS 库
+      一个用来实现多主题管理的 iOS 库，一个测试的库
                  DESC
 
   s.homepage         = 'https://github.com/jiayanana/fantastic-telegram'
