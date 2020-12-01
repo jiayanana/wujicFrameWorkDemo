@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'wujicFrameWorkDemo/Classes/**/*'
 
-  s.vendored_frameworks = 'XRGcSDKPods/*.{framework}'
+  s.vendored_frameworks = 'wujicFrameWorkDemo/*.{framework}'
   s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
