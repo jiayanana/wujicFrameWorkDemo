@@ -1,0 +1,5 @@
+/wujicFrameWorkDemo/WujiRTCFramework.framework/WujiRTCFramework filter=lfs diff=lfs merge=lfs -text
+/Users/a3/Desktop/wujicFrameWorkDemo/wujicFrameWorkDemo/wujicFrameWorkDemo/WujiRTCFramework.framework/WujiRTCFramework[[:space:]] filter=lfs diff=lfs merge=lfs -text
+WujiRTCFramework filter=lfs diff=lfs merge=lfs -text
+WujiRTCFramework.psd filter=lfs diff=lfs merge=lfs -text
+*.framework filter=lfs diff=lfs merge=lfs -text

@@ -7,36 +7,31 @@
 #pragma once
 
 #if defined(_WIN32)
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
+#endif
 #include <windows.h>
-#include <cstdint>
 #define WUJI_CALL __cdecl
 #if defined(WUJIRTC_EXPORT)
 #define WUJI_API extern "C" __declspec(dllexport)
+#define WUJI_CPP_API __declspec(dllexport)
 #else
 #define WUJI_API extern "C" __declspec(dllimport)
+#define WUJI_CPP_API __declspec(dllimport)
 #endif
-#define _WUJI_CPP_API
-
 #elif defined(__APPLE__)
+#include <TargetConditionals.h>
 #define WUJI_API __attribute__((visibility("default"))) extern "C"
+#define WUJI_CPP_API __attribute__((visibility("default")))
 #define WUJI_CALL
-#define _WUJI_CPP_API
-
 #elif defined(__ANDROID__) || defined(__linux__)
-#if defined(__ANDROID__) && defined(FEATURE_RTM_STANDALONE_SDK)
-#define WUJI_API extern "C"
-#define _WUJI_CPP_API
-#else
 #define WUJI_API extern "C" __attribute__((visibility("default")))
-#define _WUJI_CPP_API __attribute__((visibility("default")))
-#endif
+#define WUJI_CPP_API __attribute__((visibility("default")))
 #define WUJI_CALL
-
 #else
 #define WUJI_API extern "C"
+#define WUJI_CPP_API
 #define WUJI_CALL
-#define _WUJI_CPP_API
 #endif
 
 /**
@@ -3689,7 +3684,7 @@ instance, ensure that you call the \ref wuji::rtm::IRtmService::release
 
 @return An \ref wuji::rtm::IRtmService "IRtmService" instance.
 */
-WUJI_API IRtmService* WUJI_CALL createRtmService();
+WUJI_CPP_API IRtmService* createRtmService();
 
 ////////////////////////////////////////////////////////
 /** @} */
@@ -3706,7 +3701,7 @@ Gets the version of the Wuji RTM SDK.
 
 @return The version of the Wuji RTM SDK.
 */
-WUJI_API const char* WUJI_CALL getRtmSdkVersion();
+WUJI_CPP_API const char* getRtmSdkVersion();
 
 ////////////////////////////////////////////////////////
 /** @} */

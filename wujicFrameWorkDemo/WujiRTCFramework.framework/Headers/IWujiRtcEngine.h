@@ -246,7 +246,23 @@ enum LOCAL_VIDEO_STREAM_ERROR {
     /** The local video capture fails. Check whether the capturing device is working properly. */
     LOCAL_VIDEO_STREAM_ERROR_CAPTURE_FAILURE = 4,
     /** The local video encoding fails. */
-    LOCAL_VIDEO_STREAM_ERROR_ENCODE_FAILURE = 5
+    LOCAL_VIDEO_STREAM_ERROR_ENCODE_FAILURE = 5,
+    /** 11: The shared window is minimized when you call \ref IRtcEngine::startScreenCaptureByWindowId "startScreenCaptureByWindowId" to share a window.
+     */
+    LOCAL_VIDEO_STREAM_ERROR_SCREEN_CAPTURE_WINDOW_MINIMIZED = 11,
+    /** 12: The error code indicates that a window shared by the window ID has been closed, or a full-screen window
+     * shared by the window ID has exited full-screen mode.
+     * After exiting full-screen mode, remote users cannot see the shared window. To prevent remote users from seeing a
+     * black screen, Wuji recommends that you immediately stop screen sharing.
+     *
+     * Common scenarios for reporting this error code:
+     * - When the local user closes the shared window, the SDK reports this error code.
+     * - The local user shows some slides in full-screen mode first, and then shares the windows of the slides. After
+     * the user exits full-screen mode, the SDK reports this error code.
+     * - The local user watches web video or reads web document in full-screen mode first, and then shares the window of
+     * the web video or document. After the user exits full-screen mode, the SDK reports this error code.
+     */
+    LOCAL_VIDEO_STREAM_ERROR_SCREEN_CAPTURE_WINDOW_CLOSED = 12,
 };
 
 /** Local audio state types.
@@ -750,6 +766,8 @@ enum VIDEO_CODEC_TYPE {
     VIDEO_CODEC_EVP = 3,
     /** Enhanced H264 */
     VIDEO_CODEC_E264 = 4,
+    /** Standard VP9 */
+    VIDEO_CODEC_VP9 = 5,
 };
 
 /** Audio equalization band frequencies. */
@@ -1285,6 +1303,8 @@ enum NETWORK_TYPE
   NETWORK_TYPE_MOBILE_3G = 4,
   /** 5: The network type is mobile 4G. */
   NETWORK_TYPE_MOBILE_4G = 5,
+  /** 5: The network type is mobile 5G. */
+  NETWORK_TYPE_MOBILE_5G = 6,
 };
 
 /** States of the last-mile network probe test. */
@@ -5170,7 +5190,7 @@ public:
      - 0: Success.
      - < 0: Failure.
      */
-	virtual int enableAudioVolumeIndication(int interval, int smooth, bool report_vad) = 0;
+	virtual int enableAudioVolumeIndication(int interval, int smooth, bool report_vad = false) = 0;
     /** @deprecated Starts an audio recording.
      
      Use \ref IRtcEngine::startAudioRecording(const char* filePath, int sampleRate, AUDIO_RECORDING_QUALITY_TYPE quality) "startAudioRecording"2 instead.
@@ -6292,7 +6312,7 @@ public:
      - < 0: Failure:
         - #ERR_INVALID_ARGUMENT: the argument is invalid.
      */
-    virtual int startScreenCaptureByWindowId(view_t windowId, const Rectangle& regionRect, const ScreenCaptureParameters& captureParams) = 0;
+    virtual int startScreenCaptureByWindowId(int * windowId, const Rectangle& regionRect, const ScreenCaptureParameters& captureParams) = 0;
 
     /** Sets the content hint for screen sharing.
 

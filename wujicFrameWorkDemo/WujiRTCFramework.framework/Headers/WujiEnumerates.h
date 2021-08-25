@@ -1358,6 +1358,25 @@ typedef NS_ENUM(NSInteger, WujiLocalVideoStreamError) {
   WujiLocalVideoStreamErrorCaptureFailure = 4,
   /** 5: the local video encoding fails. */
   WujiLocalVideoStreamErrorEncodeFailure = 5,
+  /** 11: (macOS only) The shared window is minimized when you call
+      [startScreenCaptureByWindowId]([WujiRtcEngineKit startScreenCaptureByWindowId:rectangle:parameters:]) to share a window.
+      @since v3.1.0
+  */
+  WujiLocalVideoStreamErrorScreenCaptureWindowMinimized = 11,
+  /** 12: (macOS only) The error code indicates that a window shared by the window ID has been closed, or a full-screen
+     window shared by the window ID has exited full-screen mode. After exiting
+     full-screen mode, remote users cannot see the shared window. To prevent remote users from seeing a black screen, Wuji recommends
+     that you immediately stop screen sharing.
+     <p>Common scenarios for reporting this error code:</p>
+     <li>When the local user closes the shared window, the SDK reports this error code.</li>
+     <li>The local user shows some slides in full-screen mode first, and then shares the windows of the slides. After the user exis full-screen
+     mode, the SDK reports this error code.</li>
+     <li>The local user watches web video or reads web document in full-screen mode first, and then shares the window of the web video or
+     document. After the user exits full-screen mode, the SDK reports this error code.</li>
+     
+     @since v3.2.0
+  */
+  WujiLocalVideoStreamErrorScreenCaptureWindowClosed = 12,
 };
 /** IP areas.
  */ 
